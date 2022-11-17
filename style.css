@@ -1,0 +1,85 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+section{
+    margin-bottom: 50px;
+
+}
+
+
+.text-highlight{
+    color: orange;
+}
+.half-with{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    
+}
+
+
+.half-with img{
+    width: 100%;
+    margin-top: 2%;
+    
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.hero-btn{
+    
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    color: rgb(63, 59, 59);
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right;
+
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 340px;
+    background-color: white;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: left;
+    
+}
+.exp-area h2{
+    font-size: 50px;
+}
+#box-crnr{
+    border-left: 8px solid;
+    border-image:linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#box-crnr2{
+    border-left: 8px solid;
+    border-image: linear-gradient( blue, cyan); 
+    border-image-slice:1 ;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+}
